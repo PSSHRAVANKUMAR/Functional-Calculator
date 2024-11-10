@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="cal.css" rel="stylesheet" >
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="screen" id="screen">0</div>
+        <div class="panel">
+            <div class="buttons" value="7" onclick="press('7')">7</div>
+            <div class="buttons" value="8" onclick="press('8')">8</div>
+            <div class="buttons" value="9" onclick="press('9')">9</div>
+            <div class="buttons operator" value="+" onclick="press('+')">+</div>
+            <div class="buttons" value="4" onclick="press('4')">4</div>
+            <div class="buttons" value="5" onclick="press('5')">5</div>
+            <div class="buttons" value="6" onclick="press('6')">6</div>
+            <div class="buttons operator" value="-" onclick="press('-')">-</div>
+            <div class="buttons" value="1" onclick="press('1')">1</div>
+            <div class="buttons" value="2" onclick="press('2')">2</div>
+            <div class="buttons" value="3" onclick="press('3')">3</div>
+            <div class="buttons operator" value="X" onclick="press('*')">X</div>
+            <div class="buttons clear" style="hover=" value="c" onclick="clearScreen()">C</div>
+            <div class="buttons" value="0" onclick="press('0')">0</div>
+            <div class="buttons operator" value="=" onclick="calculate()">=</div>
+            <div class="buttons operator" value="÷" onclick="press('/')">÷</div>
+        </div>
+    </div>
+
+
+    <script src="cal.js"></script>
+</body>
+</html>
