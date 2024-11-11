@@ -1,0 +1,75 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #222222;
+    color: #343a40;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    height: 580px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for container */
+    border-radius: 10px;
+    background-color: #010203;
+}
+
+.screen {
+    width: 490px;
+    height: 100px;
+    background-color: #C0C0C0;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 2em;
+    color: black;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2); /* Inset shadow for screen */
+}
+
+.buttons {
+    width: 90px;
+    height: 90px;
+    background-color: #848884;
+    border-radius: 100%;
+    margin: 5px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for button */
+}
+
+.clear {
+    background-color: red;
+}
+
+.operator {
+    background-color: coral;
+}
+
+.clear:hover {
+    background-color: #CC0000 !important;
+    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.buttons:hover {
+    background-color: #FE8C00; 
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
